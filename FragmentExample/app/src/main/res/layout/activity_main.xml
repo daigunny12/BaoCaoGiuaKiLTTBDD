@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#ffcccc"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/btnDemoMainActi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Demo" />
+
+    <Button
+        android:id="@+id/btnAddFragmentManinActi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fragment" />
+
+    <Button
+        android:id="@+id/btnGiaoTiepFragmentMainActi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giao tiếp Fragment" />
+
+    <Button
+        android:id="@+id/btnFragTruyenNhan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fragment truyền và nhận dữ liệu" />
+
+    <Button
+        android:id="@+id/btnRemoveAndPop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remove và Pop back stack" />
+
+    <Button
+        android:id="@+id/btnListFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List fragment" />
+
+    <Button
+        android:id="@+id/btnDialogFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dialog fragment" />
+
+    <Button
+        android:id="@+id/btnXuLyGiaoDien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xử lý giao diện với fragment" />
+
+
+</LinearLayout>

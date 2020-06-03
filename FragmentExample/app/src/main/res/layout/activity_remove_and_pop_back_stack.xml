@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RemoveAndPopBackStackActivity">
+
+    <Button
+        android:id="@+id/btnAdd1"
+        android:onClick="Add1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="3dp"
+        android:text="Add 1" />
+
+    <Button
+        android:id="@+id/btnAdd2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="3dp"
+        android:onClick="Add2"
+        android:text="Add 2" />
+
+    <Button
+        android:id="@+id/btnAdd3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="190dp"
+        android:layout_marginTop="3dp"
+        android:onClick="Add3"
+        android:text="Add 3" />
+
+    <Button
+        android:id="@+id/btbRemove1"
+        android:onClick="Remove1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="54dp"
+        android:text="Remove 1" />
+
+    <Button
+        android:id="@+id/btnRemove2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="53dp"
+        android:onClick="Remove2"
+        android:text="Remove 2" />
+
+    <Button
+        android:id="@+id/btnRemove3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="190dp"
+        android:layout_marginTop="52dp"
+        android:onClick="Remove3"
+        android:text="Remove 3" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:onClick="BackStack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="5dp"
+        android:text="Back" />
+
+    <Button
+        android:id="@+id/btnPop"
+        android:onClick="Pop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="5dp"
+        android:text="Pop 1" />
+
+    <RelativeLayout
+        android:id="@+id/layoutRemoveAndPop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="111dp">
+
+    </RelativeLayout>
+</RelativeLayout>
